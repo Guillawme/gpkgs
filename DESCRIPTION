@@ -1,0 +1,63 @@
+Package: gpkgs
+Title: Install Packages I Use All the Time
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Guillaume",
+           family = "Gaullier",
+           email = "guillaume@gaullier.org",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-3405-6021"))
+Description: This is a meta-package that only uses the dependency resolution
+    system to install in one command all the packages I use all the time. All
+    packages I use are explicitely listed, even if they are themselves
+    dependencies of other packages already listed. This package does not contain
+    any code.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.6.0)
+Imports: abind,
+    bio3d,
+    BiocManager,
+    Biostrings,
+    blogdown,
+    cdata,
+    citr,
+    clipr,
+    covr,
+    curl,
+    datr,
+    devtools,
+    dplyr,
+    ggplot2,
+    here,
+    import,
+    jsonlite,
+    knitr,
+    lintr,
+    littler,
+    magrittr,
+    packrat,
+    pacman,
+    pagedown,
+    pkgdown,
+    plotly,
+    purrr,
+    readr,
+    readxl,
+    reticulate,
+    rex,
+    rmarkdown,
+    roxygen2,
+    rvest,
+    stringr,
+    svglite,
+    testthat,
+    tibble,
+    tidyr,
+    tidyverse,
+    units,
+    vitae,
+    workflowr,
+    wrapr,
+    xml2,
+    zeallot

@@ -1,0 +1,4 @@
+.gitignore
+^LICENSE\.md$
+^gpkgs\.Rproj$
+^\.Rproj\.user$
